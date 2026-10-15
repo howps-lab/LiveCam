@@ -33,13 +33,9 @@ export const MonitoringSummary: React.FC<MonitoringSummaryProps> = ({
           <div className="space-y-1.5">
             <div className="flex items-center gap-3 flex-wrap">
               <h2 className="text-lg sm:text-xl font-bold tracking-tight text-[#F5F7FC]">
-                Singapore Live ({totalCameras} Cameras)
+                Live Stream ({totalCameras} Cameras)
               </h2>
             </div>
-
-            <p className="text-sm text-[#91A9C8] max-w-3xl leading-relaxed">
-              Scroll down to monitor the Haze situation in real time.
-            </p>
 
             <div className="flex items-center gap-3 pt-1 text-xs text-[#91A9C8] flex-wrap">
               <span className="flex items-center gap-1">
