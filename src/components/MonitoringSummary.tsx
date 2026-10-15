@@ -44,7 +44,7 @@ export const MonitoringSummary: React.FC<MonitoringSummaryProps> = ({
             </div>
 
             <p className="text-sm text-[#91A9C8] max-w-3xl leading-relaxed">
-              View four camera feeds in real time. Each stream is provided by YouTube and updates according to its original broadcast.
+              Scroll down to monitor the Haze situation in real time.
             </p>
 
             <div className="flex items-center gap-3 pt-1 text-xs text-[#91A9C8] flex-wrap">
