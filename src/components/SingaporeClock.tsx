@@ -75,7 +75,7 @@ export const SingaporeClock: React.FC<SingaporeClockProps> = ({ compact = false 
         <div className="flex items-center gap-1 text-[9.5px] text-[#91A9C8] mt-0.5">
           <span className="font-medium text-[#c4d6ee]">{dateString || '--- -- ----'}</span>
           <span className="text-[#243149]">·</span>
-          <span className="text-[8.5px] tracking-wider uppercase text-[#91A9C8]">SINGAPORE (SGT UTC+8)</span>
+          <span className="text-[8.5px] tracking-wider uppercase text-[#91A9C8]">(SGT UTC +8)</span>
         </div>
       </div>
     </div>
