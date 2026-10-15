@@ -33,7 +33,7 @@ export const MonitoringSummary: React.FC<MonitoringSummaryProps> = ({
           <div className="space-y-1.5">
             <div className="flex items-center gap-3 flex-wrap">
               <h2 className="text-lg sm:text-xl font-bold tracking-tight text-[#F5F7FC]">
-                Singapore Downtown Live Monitoring ({totalCameras} Cameras)
+                Singapore Live ({totalCameras} Cameras)
               </h2>
               <span 
                 className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-[#00C6A2]/10 border border-[#00C6A2]/30 text-[#00C6A2]"

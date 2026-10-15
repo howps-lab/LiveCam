@@ -83,7 +83,7 @@ export default function App() {
             <div className="flex items-center gap-2">
               <Shield className="w-4 h-4 text-[#00C6A2]" />
               <span className="font-semibold text-[#F5F7FC]">
-                Singapore Downtown Live Surveillance Dashboard
+                Singapore Live Cams Dashboard
               </span>
             </div>
             <div className="flex items-center gap-4 text-[11px]">

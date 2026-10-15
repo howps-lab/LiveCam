@@ -54,28 +54,28 @@ export const SingaporeClock: React.FC<SingaporeClockProps> = ({ compact = false 
 
   return (
     <div
-      className="flex items-center gap-3 px-3.5 py-2 rounded-xl bg-[#1D2A3E]/70 border border-[#243149] shadow-sm backdrop-blur-xs select-none"
+      className="flex items-center gap-2 px-2.5 py-1.5 rounded-lg bg-[#1D2A3E]/70 border border-[#243149] shadow-xs backdrop-blur-xs select-none"
       role="timer"
       aria-live="off"
       aria-label="Current Singapore time and date"
     >
-      <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-[#00C6A2]/10 border border-[#00C6A2]/25 text-[#00D9F5]">
-        <Clock className="w-4 h-4 animate-pulse" aria-hidden="true" />
+      <div className="flex items-center justify-center w-6 h-6 rounded-md bg-[#00C6A2]/10 border border-[#00C6A2]/25 text-[#00D9F5]">
+        <Clock className="w-3 h-3 animate-pulse" aria-hidden="true" />
       </div>
 
-      <div className="flex flex-col">
-        <div className="flex items-baseline gap-2">
-          <span className="text-lg font-bold tracking-wider text-[#F5F7FC] font-mono-numbers">
+      <div className="flex flex-col leading-tight">
+        <div className="flex items-baseline gap-1.5">
+          <span className="text-xs sm:text-[13px] font-bold tracking-tight text-[#F5F7FC] font-mono-numbers">
             {timeString || '--:--:--'}
           </span>
-          <span className="text-[11px] font-semibold tracking-wide text-[#00D9F5] px-1.5 py-0.5 rounded bg-[#00D9F5]/10 border border-[#00D9F5]/20">
+          <span className="text-[9px] font-semibold tracking-wide text-[#00D9F5] px-1 py-0.2 rounded bg-[#00D9F5]/10 border border-[#00D9F5]/20">
             SGT
           </span>
         </div>
-        <div className="flex items-center gap-1.5 text-[11px] text-[#91A9C8]">
+        <div className="flex items-center gap-1 text-[9.5px] text-[#91A9C8] mt-0.5">
           <span className="font-medium text-[#c4d6ee]">{dateString || '--- -- ----'}</span>
           <span className="text-[#243149]">·</span>
-          <span className="text-[10px] tracking-wider uppercase text-[#91A9C8]">SINGAPORE (SGT UTC+8)</span>
+          <span className="text-[8.5px] tracking-wider uppercase text-[#91A9C8]">SINGAPORE (SGT UTC+8)</span>
         </div>
       </div>
     </div>
