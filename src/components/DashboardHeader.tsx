@@ -54,15 +54,22 @@ export const DashboardHeader: React.FC<DashboardHeaderProps> = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Open Singapore Haze Update in a new tab"
-            className="group relative inline-flex items-center gap-1 px-2 py-0.5 rounded-md font-bold text-[9.5px] text-[#030817] bg-gradient-to-r from-[#FF7A00] via-[#FFA800] to-[#FFCC00] hover:from-[#FF8A1A] hover:to-[#FFD633] active:scale-[0.98] transition-all duration-200 shadow-[0_0_10px_rgba(255,140,0,0.3)] hover:shadow-[0_0_16px_rgba(255,165,0,0.5)] shrink-0 border border-amber-300/60 leading-none"
+            className="group relative inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg font-bold text-[#030817] bg-gradient-to-r from-[#FF7A00] via-[#FFA800] to-[#FFCC00] hover:from-[#FF8A1A] hover:to-[#FFD633] active:scale-[0.98] transition-all duration-200 shadow-[0_0_12px_rgba(255,140,0,0.35)] hover:shadow-[0_0_18px_rgba(255,165,0,0.55)] shrink-0 border border-amber-300/60 select-none"
           >
-            <span className="relative flex h-1.5 w-1.5 shrink-0">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#B91C1C] opacity-80"></span>
-              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#DC2626]"></span>
-            </span>
-            <Wind className="w-2.5 h-2.5 text-[#030817] shrink-0" aria-hidden="true" />
-            <span className="tracking-tighter">Haze Update</span>
-            <ExternalLink className="w-2.5 h-2.5 text-[#030817]/80 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform shrink-0" aria-hidden="true" />
+            <div className="flex items-center justify-center shrink-0">
+              <span className="relative flex h-1.5 w-1.5 mr-1">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#B91C1C] opacity-80"></span>
+                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#DC2626]"></span>
+              </span>
+              <Wind className="w-3.5 h-3.5 text-[#030817]" aria-hidden="true" />
+            </div>
+            <div className="flex flex-col text-left leading-tight">
+              <span className="text-[10px] font-extrabold tracking-tight">Haze</span>
+              <span className="text-[9.5px] font-bold tracking-tight flex items-center gap-0.5">
+                Update
+                <ExternalLink className="w-2.5 h-2.5 text-[#030817]/85 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" aria-hidden="true" />
+              </span>
+            </div>
           </a>
         </div>
       </div>
