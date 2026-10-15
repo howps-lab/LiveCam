@@ -54,7 +54,7 @@ export const DashboardHeader: React.FC<DashboardHeaderProps> = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Open Singapore Haze Update in a new tab"
-            className="group relative inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg font-bold text-[#030817] bg-gradient-to-r from-[#FF7A00] via-[#FFA800] to-[#FFCC00] hover:from-[#FF8A1A] hover:to-[#FFD633] active:scale-[0.98] transition-all duration-200 shadow-[0_0_12px_rgba(255,140,0,0.35)] hover:shadow-[0_0_18px_rgba(255,165,0,0.55)] shrink-0 border border-amber-300/60 select-none"
+            className="group relative inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg font-bold text-[#030817] bg-gradient-to-r from-[#C25E00] via-[#D97706] to-[#E29018] hover:from-[#D26800] hover:to-[#EB9A22] active:scale-[0.98] transition-all duration-200 shadow-[0_0_8px_rgba(217,119,6,0.22)] hover:shadow-[0_0_12px_rgba(217,119,6,0.35)] shrink-0 border border-amber-500/40 select-none"
           >
             <div className="flex items-center justify-center shrink-0">
               <span className="relative flex h-1.5 w-1.5 mr-1">
