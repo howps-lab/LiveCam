@@ -2,5 +2,7 @@
   "name": "Singapore Downtown Live Cams",
   "description": "Real-time surveillance monitoring dashboard displaying four live YouTube video streams of Singapore downtown with live SGT clock and controls.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
