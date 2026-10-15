@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cctv, RefreshCw, LayoutGrid, Square, CheckCircle2, Info, Volume2 } from 'lucide-react';
+import { Cctv, RefreshCw, LayoutGrid, Square, Info, Volume2 } from 'lucide-react';
 
 interface MonitoringSummaryProps {
   onRefreshAll: () => void;
@@ -35,12 +35,6 @@ export const MonitoringSummary: React.FC<MonitoringSummaryProps> = ({
               <h2 className="text-lg sm:text-xl font-bold tracking-tight text-[#F5F7FC]">
                 Singapore Live ({totalCameras} Cameras)
               </h2>
-              <span 
-                className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-[#00C6A2]/10 border border-[#00C6A2]/30 text-[#00C6A2]"
-              >
-                <CheckCircle2 className="w-3.5 h-3.5" aria-hidden="true" />
-                Monitoring Dashboard Active
-              </span>
             </div>
 
             <p className="text-sm text-[#91A9C8] max-w-3xl leading-relaxed">
