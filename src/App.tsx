@@ -97,13 +97,9 @@ export default function App() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 text-[11px] pt-1 text-[#91A9C8]">
-            <p>
-              Video streams are provided via YouTube embedded players from their respective broadcast channels.
-              Broadcast availability, frame rate, and streaming resolution are subject to source broadcaster conditions.
-            </p>
-            <p className="shrink-0 text-[#c4d6ee]">
-              Press <kbd className="px-1.5 py-0.5 rounded bg-[#1D2A3E] border border-[#243149] font-mono-numbers text-[10px]">Fullscreen</kbd> on any camera card for single-feed focus view.
+          <div className="text-[11px] pt-1 text-[#91A9C8]">
+            <p className="leading-relaxed">
+              All live video streams displayed on this website are provided by third-party YouTube channels. The videos, broadcasts, footage, audio, logos, trademarks and other associated content remain the property of their respective copyright owners and rights holders. <strong className="font-bold text-[#F5F7FC]">Singapore Live Cams does not claim ownership of, or copyright in, these streams and is not affiliated with or endorsed by the stream owners.</strong>
             </p>
           </div>
         </footer>
