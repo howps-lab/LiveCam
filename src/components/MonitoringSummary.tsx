@@ -31,9 +31,12 @@ export const MonitoringSummary: React.FC<MonitoringSummaryProps> = ({
           </div>
 
           <div className="space-y-1.5">
-            <div className="flex items-center gap-3 flex-wrap">
-              <h2 className="text-lg sm:text-xl font-bold tracking-tight text-[#F5F7FC]">
-                Live Stream ({totalCameras} Cameras)
+            <div className="flex flex-col">
+              <h2 className="text-lg sm:text-xl font-bold tracking-tight text-[#F5F7FC] leading-snug">
+                Haze Monitor Live Stream
+                <span className="block text-sm sm:text-base font-semibold text-[#00C6A2] mt-0.5">
+                  ({totalCameras} Cameras)
+                </span>
               </h2>
             </div>
 
@@ -44,7 +47,7 @@ export const MonitoringSummary: React.FC<MonitoringSummaryProps> = ({
               <span className="text-[#243149]">|</span>
               <span className="flex items-center gap-1 text-[11px] text-[#91A9C8]">
                 <Volume2 className="w-3 h-3 text-[#00D9F5]" aria-hidden="true" />
-                Audio muted by default (browser policy) · Unmute anytime in player
+                Audio muted by default (browser policy)
               </span>
             </div>
           </div>
