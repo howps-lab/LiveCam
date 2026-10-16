@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { CAMERAS } from './types/camera';
 import { DashboardHeader } from './components/DashboardHeader';
 import { MonitoringSummary } from './components/MonitoringSummary';
@@ -107,6 +108,7 @@ export default function App() {
           </div>
         </footer>
       </main>
+      <Analytics />
     </div>
   );
 }
